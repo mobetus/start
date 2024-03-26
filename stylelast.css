@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+}
+#container {
+    width: 100vw;
+    height: 100vh;	
+    display: flex;
+    flex-direction: column;
+}
+#header {
+    flex-basis: 100px;
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    padding: 12px;
+    background-color: dodgerblue;
+}
+#header div {
+    background-color: yellow;
+    padding: 12px 0;
+    text-align: center;
+}
+#header div:first-child {
+    flex-basis: 100px;
+}
+#header div:last-child {
+    flex-grow: 1;
+}
+
+#main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content {
+    padding: 24px;
+    background-color: skyblue;
+}
+
+#footer {
+    flex-basis: 60px;
+    background-color: tomato;
+}
