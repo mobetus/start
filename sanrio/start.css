@@ -10,3 +10,6 @@ header {
 .pic {
   display: inline-block;
 }
+p {
+  text-align: center;
+}
