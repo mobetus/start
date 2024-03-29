@@ -1,9 +1,12 @@
 header {
-  position: fixed;
+  position: relative;
   top: 0;
 
   width: 100%;
   background-color: #fff; /* 헤더의 배경색 지정 */
   padding: 0; /* 헤더 내부 여백 */
   /* z-index: 1000; 다른 요소 위에 나타나도록 z-index 설정 */
+}
+.pic {
+  display: inline-block;
 }
