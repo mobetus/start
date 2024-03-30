@@ -3,9 +3,9 @@ header {
   top: 0;
 
   width: 100%;
-  background-color: #fff; /* 헤더의 배경색 지정 */
-  padding: 0; /* 헤더 내부 여백 */
-  /* z-index: 1000; 다른 요소 위에 나타나도록 z-index 설정 */
+  background-color: #fff;
+  padding: 0;
+  /* z-index: 1000;  */
 }
 .pic {
   display: inline-block;
@@ -15,8 +15,17 @@ p {
 }
 .bone {
   border: 1px solid lightgrey;
-  border-radius: 30%;
+  border-radius: 5%;
 }
 .second {
   text-align: center;
+}
+.third {
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 20%;
+}
+h4:hover {
+  background-color: black;
+  color: white;
 }
