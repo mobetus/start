@@ -1,7 +1,6 @@
 header {
-  position: relative;
+  position: sticky;
   top: 0;
-
   width: 100%;
   background-color: #fff;
   padding: 0;
@@ -11,7 +10,6 @@ h4:hover {
   background-color: black;
   color: white;
 }
-
 .pic {
   display: inline-block;
 }
@@ -26,7 +24,6 @@ p {
 .third {
   max-width: 150px;
   padding: 8px 0;
-  margin-bottom: 30px;
   font-size: 0.8rem;
   display: block;
   width: 100%;
