@@ -7,25 +7,49 @@ header {
   padding: 0;
   /* z-index: 1000;  */
 }
+h4:hover {
+  background-color: black;
+  color: white;
+}
+
 .pic {
   display: inline-block;
 }
 p {
   text-align: center;
 }
+
+.second {
+  text-align: center;
+  font-size: 2.5em;
+}
+.third {
+  max-width: 150px;
+  padding: 8px 0;
+  margin-bottom: 30px;
+  font-size: 0.8rem;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: solid 1px #222;
+  border-radius: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  background: transparent;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+}
 .bone {
   border: 1px solid lightgrey;
   border-radius: 5%;
 }
-.second {
-  text-align: center;
+p.one {
+  font-weight: bolder;
 }
-.third {
-  text-align: center;
-  border: 1px solid grey;
-  border-radius: 20%;
-}
-h4:hover {
-  background-color: black;
-  color: white;
+p.two {
+  font-size: 10px;
+  font-weight: bolder;
+  color: lightgrey;
 }
