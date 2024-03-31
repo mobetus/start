@@ -6,6 +6,18 @@ header {
   padding: 0;
   /* z-index: 1000;  */
 }
+.mid {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: block;
+  font-size: large;
+}
+.sns {
+  display: inline-flex;
+  justify-content: right;
+  flex-direction: column;
+}
 h4:hover {
   background-color: black;
   color: white;
@@ -42,6 +54,7 @@ p {
   border: 1px solid lightgrey;
   border-radius: 5%;
 }
+
 p.one {
   font-weight: bolder;
 }
