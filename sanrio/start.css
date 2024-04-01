@@ -14,9 +14,11 @@ header {
   font-size: large;
 }
 .sns {
-  display: inline-flex;
-  justify-content: right;
+  position: relative;
+  top: 0;
   flex-direction: column;
+  display: inline-flex;
+  margin-left: 95%;
 }
 h4:hover {
   background-color: black;
