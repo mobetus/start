@@ -4,14 +4,13 @@ header {
   width: 100%;
   background-color: #fff;
   padding: 0;
-  /* z-index: 1000;  */
 }
 .mid {
-  text-align: right;
   text-transform: uppercase;
   font-weight: bolder;
-  display: block;
   font-size: large;
+  display: flex;
+  justify-content: right;
 }
 .sns {
   position: relative;
@@ -24,8 +23,13 @@ h4:hover {
   background-color: black;
   color: white;
 }
+.allcard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .pic {
-  display: inline-block;
+  display: flex;
 }
 p {
   text-align: center;
@@ -33,10 +37,10 @@ p {
 
 .second {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 .third {
-  max-width: 150px;
+  max-width: 120px;
   padding: 8px 0;
   font-size: 0.8rem;
   display: block;
@@ -52,9 +56,13 @@ p {
   transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
 }
-.bone {
+.card {
   border: 1px solid lightgrey;
   border-radius: 5%;
+  background-color: blue;
+}
+.littlecard {
+  margin-bottom: 20%;
 }
 
 p.one {
