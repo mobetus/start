@@ -5,19 +5,18 @@ header {
   background-color: #fff;
   padding: 0;
 }
-.mid {
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-size: large;
+.navbar {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0px 30px;
 }
-.sns {
-  position: relative;
-  top: 0;
-  flex-direction: column;
-  display: inline-flex;
-  margin-left: 95%;
+.menu {
+  text-transform: uppercase;
+  font-size: 14px;
+  display: flex;
+  list-style: none;
 }
 h4:hover {
   background-color: black;
@@ -27,9 +26,12 @@ h4:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 100px;
+  padding: 10px;
 }
 .pic {
-  display: flex;
+  display: inline-block;
+  margin: 0 auto;
 }
 p {
   text-align: center;
@@ -42,7 +44,6 @@ p {
 .third {
   max-width: 120px;
   padding: 8px 0;
-  font-size: 0.8rem;
   display: block;
   width: 100%;
   margin: 0 auto;
@@ -53,23 +54,24 @@ p {
   text-transform: uppercase;
   font-size: 0.75rem;
   background: transparent;
-  transition: 0.3s ease;
-  -webkit-transition: 0.3s ease;
+  font-weight: 300;
 }
 .card {
   border: 1px solid lightgrey;
   border-radius: 5%;
-  background-color: blue;
+  margin: 10px 1.5px;
 }
 .littlecard {
   margin-bottom: 20%;
 }
 
 p.one {
-  font-weight: bolder;
+  font-weight: 530;
+  margin: 0;
 }
 p.two {
   font-size: 10px;
   font-weight: bolder;
   color: lightgrey;
+  margin: 0;
 }
