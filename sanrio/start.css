@@ -5,12 +5,13 @@ header {
   background-color: #fff;
   padding: 0;
 }
-.navbar {
+.menubar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
   padding: 0px 30px;
+  margin-bottom: 20px;
 }
 .menu {
   text-transform: uppercase;
