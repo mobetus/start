@@ -16,3 +16,14 @@ p {
   text-align: center;
   max-width: 300px;
 }
+.fifth {
+  color: grey;
+  size: 5;
+}
+.sixth {
+  display: inline-block;
+  margin-left: 50%;
+  border: 3px yellow solid;
+  border-radius: 10;
+  background-color: yellow;
+}
