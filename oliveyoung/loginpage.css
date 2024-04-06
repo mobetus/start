@@ -5,23 +5,28 @@ p {
   margin-top: 10%;
 }
 p.one {
+  font-weight: bolder;
   font-size: 800;
-  font-weight: 500;
 }
 p.two {
   color: grey;
 }
 .box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-left: 30%;
+}
+input{
+  height: 30px;
 }
 .second {
   margin: 0 30%;
 }
+.checkbox{
+  margin-top:10%;
+}
 .third {
   display: inline-block;
   margin-left: 55%;
+  ;
 }
 .fourth {
   margin: 0 auto;
@@ -30,26 +35,45 @@ p.two {
   color: white;
   text-align: center;
   max-width: 500px;
-  height: 50px;
-  padding-top: 25px;
+  height: 35px;
+  padding-top:13px;
   font-weight: bolder;
 }
 .fifth {
+  margin: 1% 30%;
+  max-width: 300px;
   color: grey;
 }
 .sixth {
   display: inline-block;
-  margin-left: 50%;
-  border: 3px yellow solid;
+  border: 3px rgb(227, 227, 17) solid;
   border-radius: 10%;
-  background-color: yellow;
+  background-color: rgb(210, 210, 11);
+  font-weight: bolder;
+  color: black;
+  margin-left: 53%;
+  padding: 2%;
+  
+}
+.kakao{
+  max-width: 10px;
 }
 hr {
-  max-width: 500px;
+ max-width: 500px;
 }
-.eighth {
+.cjonepicture{
+  margin-left: 28%;
+}
+.seventh {
+  font-weight: 800;
+  margin-left: 30%;
+}
+a.eighth {
   display: inline;
-  margin-left: 50%;
-  border: 3px grey solid;
-  border-radius: 10%;
+  margin-left: 15%;
+  border: 3px lightgray solid;
+  border-radius: 5%;
+  width="25%"
+  height="3%"
+  
 }
