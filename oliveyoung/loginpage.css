@@ -14,11 +14,15 @@ h3 {
 }
 input {
   width: 500px;
-  height: 35px;
+  height: 50px;
 }
 #checkbox {
   width: 15px;
   height: 15px;
+}
+.greenborder {
+  border-color: lightgrey;
+  outline-color: yellowgreen;
 }
 .second {
   margin: 1% 30%;
