@@ -1,15 +1,13 @@
-p {
-  text-align: center;
-}
 .first {
   margin-top: 10%;
 }
-p.one {
-  font-weight: bolder;
-  font-size: 800;
+h2 {
+  text-align: center;
 }
-p.two {
+h3 {
   color: grey;
+  text-align: center;
+  font-weight: 500;
 }
 .box {
   margin-left: 30%;
@@ -20,18 +18,19 @@ input {
 }
 #checkbox {
   width: 15px;
+  height: 15px;
 }
 .second {
-  margin: 0 30%;
-  margin-bottom: 1%;
+  margin: 1% 30%;
 }
 #checkbox {
   padding-top: 20%;
 }
 .third {
   display: inline;
-  padding-left: 157px;
+  padding-left: 187px;
   color: grey;
+  font-size: 14px;
 }
 .fourth {
   margin: 0 auto;
@@ -42,28 +41,22 @@ input {
   max-width: 500px;
   height: 35px;
   padding-top: 13px;
-  font-weight: bolder;
+  font-weight: bold;
+  font-size: 20px;
 }
 .fifth {
   margin: 1% 30%;
-  max-width: 300px;
   color: grey;
+  font-size: 13px;
 }
 .sixth {
-  display: inline-block;
-  border: 3px rgb(227, 227, 17) solid;
-  border-radius: 10%;
-  background-color: rgb(210, 210, 11);
-  font-weight: bolder;
-  color: black;
-  margin-left: 53%;
-  padding: 1%;
-}
-a.kakao {
-  height: 100px;
+  justify-content: right;
+  display: flex;
+  margin-bottom: 2%;
 }
 hr {
   max-width: 500px;
+  margin-top: 2%;
 }
 .cjonepicture {
   margin-left: 28%;
@@ -73,15 +66,15 @@ hr {
   font-size: small;
   margin-left: 30%;
   color: grey;
+  margin-bottom: 100px;
 }
 .eighth {
   display: inline;
-  border: 3px lightgray solid;
+  border: 1px lightgray solid;
   border-radius: 5%;
-  padding: 10px;
-  margin-left: 130px;
-  margin-bottom: 150px;
-  width: 300px;
+  padding: 10px 20px;
+  margin-left: 140px;
+  width: 330px;
   height: 150px;
   color: black;
   font-weight: 800;
