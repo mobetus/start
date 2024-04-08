@@ -37,11 +37,12 @@ input {
   font-size: 14px;
 }
 .fourth {
-  margin: 0 auto;
+  margin: 1% auto;
+  margin-bottom: 2%;
   border: 5px solid yellowgreen;
   background-color: yellowgreen;
   text-align: center;
-  max-width: 500px;
+  max-width: 490px;
   height: 35px;
   padding: 10px;
 }
@@ -67,6 +68,7 @@ button {
 hr {
   max-width: 500px;
   margin-top: 2%;
+  color: lightgrey;
 }
 .cjonepicture {
   margin-left: 28%;
@@ -74,7 +76,7 @@ hr {
 .seventh {
   font-weight: 800;
   font-size: small;
-  margin-left: 30%;
+  margin-left: 28%;
   color: grey;
   margin-bottom: 100px;
 }
@@ -88,4 +90,9 @@ hr {
   height: 150px;
   color: black;
   font-weight: 800;
+}
+#cjone {
+  border: 0;
+  background-color: transparent;
+  padding-left: 1px;
 }
