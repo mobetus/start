@@ -80,22 +80,22 @@ button {
   font-size: 13px;
 }
 .sixth {
-  
   display: flex;
   margin-bottom: 2%;
 }
 hr {
   max-width: 500px;
   margin-top: 2%;
+  margin-right: 18%;
   color: lightgrey;
 }
 .cjonepicture {
-  margin-left: 18%;
+  margin-left: 15%;
 }
 .seventh {
   font-weight: 800;
   font-size: small;
-  margin-left: 18%;
+  margin-left: 15%;
   color: grey;
   margin-bottom: 100px;
 }
