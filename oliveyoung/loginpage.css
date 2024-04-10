@@ -75,7 +75,7 @@ button {
   font-size: 20px;
 }
 .fifth {
-  margin: 1% 17%;
+  margin: 1% 15%;
   color: grey;
   font-size: 13px;
 }
@@ -104,9 +104,8 @@ hr {
   background-color: transparent;
   border: 1px lightgray solid;
   border-radius: 5%;
-  margin-left: 100px;
   padding: 10px 20px;
-  margin-left: 110px;
+  margin-left: 125px;
   color: black;
   font-weight: 600;
 }
