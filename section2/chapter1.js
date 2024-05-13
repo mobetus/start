@@ -29,6 +29,6 @@ function printName(person) {
   console.log(person.name);
 }
 
-//let person = null;
+//  let person = null;
 let person = { name: '김현수' };
 printName(person);
